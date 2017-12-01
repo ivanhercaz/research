@@ -3,7 +3,7 @@
 * Desde/From: 30 de noviembre de 2017
 * Hasta/Until: 2 de diciembre de 2017
 * Código/Code: [2017-12-01_cambulloneros_congreso_gobernanza.html](https://github.com/ivanhercaz/research/blob/master/talks/2017-12-01 cambulloneros congreso gobernanza/2017-12-01_cambulloneros_congreso_gobernanza.html)
-* Licencia/License: [Creative Commons Atribución-CompartirIgual/Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/)
+* Licencia/License: [Creative Commons Atribución-CompartirIgual 4.0/ CC Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 [Ver presentación/View presentation](https://ivanhercaz.github.io/research/talks/2017-12-01 cambulloneros congreso gobernanza/2017-12-01_cambulloneros_congreso_gobernanza.html) (in Spanish)
 
