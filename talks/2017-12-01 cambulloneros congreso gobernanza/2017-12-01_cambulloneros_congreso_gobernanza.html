@@ -6,11 +6,11 @@
 
 		<title>Propuesta para abordar la cultura portuaria en Las Palmas de Gran Canaria: el cambullonero</title>
 
-		<link rel="stylesheet" href="revealjs/css/reveal.css">
-		<link rel="stylesheet" href="revealjs/css/theme/sky.css">
+		<link rel="stylesheet" href="../revealjs/css/reveal.css">
+		<link rel="stylesheet" href="../revealjs/css/theme/sky.css">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="../revealjs/lib/css/zenburn.css">
 
 		<!-- Little CSS classes -->
 		<style>
@@ -22,7 +22,7 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../revealjs/css/print/pdf.css' : '../revealjs/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
@@ -34,12 +34,12 @@
 						<h4>Propuesta para abordar la cultura portuaria en Las Palmas de Gran
 							Canaria</h4>
 						<h4>Los cambulloneros</h4>
-						<img src="img/cambulloneros-3.jpg" alt="cambulloneros" style="width: 50%" />
+						<img src="../img/cambulloneros-3.jpg" alt="cambulloneros" style="width: 50%" />
 						<p>Iván Hernández Cazorla</p>
-						<img src="img/ulpgc-logo.png" alt="ULPGC logo" style="width: 19%; float: left;" />
-						<img src="img/cc-by-sa.png" alt="CC-SA-BY" style="width: 12%; float: right"/>
+						<img src="../img/ulpgc-logo.png" alt="ULPGC logo" style="width: 19%; float: left;" />
+						<img src="../img/cc-by-sa.png" alt="CC-SA-BY" style="width: 12%; float: right"/>
 					</section>
-					<section data-background="img/cambulloneros-2.jpg"></section>
+					<section data-background="../img/cambulloneros-2.jpg"></section>
 				</section>
 				<section>
 					<h4>Preguntas de investigación</h4>
@@ -58,13 +58,13 @@
 						<h4>Metodología</h4>
 						<p>Enfoque cultural en el estudio histórico e interdisciplinariedad.</p>
 						<p>Aproximación teórica</p>
-						<img src="img/jakob-burckhardt.jpg" alt="Jacob Burckhardt" style="width: 250px" />
-						<img src="img/peter-burke.jpg" alt="Peter Burke" style="width: 250px"/>
-						<img src="img/johan-huizinga.jpg" alt="Peter Burke" style="width: 250px"/>
+						<img src="../img/jakob-burckhardt.jpg" alt="Jacob Burckhardt" style="width: 250px" />
+						<img src="../img/peter-burke.jpg" alt="Peter Burke" style="width: 250px"/>
+						<img src="../img/johan-huizinga.jpg" alt="Peter Burke" style="width: 250px"/>
 					</section>
 					<section>
 						<h4>Conceptos</h4>
-						<img src="img/cambulloneros-4.jpg" alt="cambulloneros" style="float: right; width: 35%" />
+						<img src="../img/cambulloneros-4.jpg" alt="cambulloneros" style="float: right; width: 35%" />
 						<ul style="margin-top: 20%">
 							<li><i>Polyphonic history</i> (Burke).</li>
 							<li><i>Lo negro y lo azul</i> (Alice Mah).</li>
@@ -77,10 +77,10 @@
 						<p>Estudio del cambullonero: origen, entorno, aspectos económicos, sociales y culturales</p>
 						<p>Historia comparativa: cambullonero ― <i>bomboteiro</i></p>
 					</section>
-					<section data-background="img/isleta-1900-1914.jpg" alt="isleta" /></section>
-					<section data-background="img/olivia-stone.jpg" alt="olivia-stone" /></section>
-					<section data-background="img/cambulloneros-3.jpg" alt="cambulloneros" /></section>
-					<section data-background="img/bomboteiros.jpg" alt="bomboteiros" /></section>
+					<section data-background="../img/isleta-1900-1914.jpg" alt="isleta" /></section>
+					<section data-background="../img/olivia-stone.jpg" alt="olivia-stone" /></section>
+					<section data-background="../img/cambulloneros-3.jpg" alt="cambulloneros" /></section>
+					<section data-background="../img/bomboteiros.jpg" alt="bomboteiros" /></section>
 				</section>
 				<section>
 					<h4>Conclusiones y resultados</h4>
@@ -129,7 +129,7 @@
 						(framework JavaScript desarrollado por <a href="https://hakim.se/">Hakim El Hattab</a>).</small></p>
 				</section>
 				<section>
-					<img src="img/cambulloneros-1.jpg" alt="cambulloneros" style="width: 45%" />
+					<img src="../img/cambulloneros-1.jpg" alt="cambulloneros" style="width: 45%" />
 					<p>Presentación disponible en GitHub</p>
 					<p><small><a href="https://github.com/ivanhercaz/academic/talks/cambulloneros-gobernanza">
 						https://github.com/ivanhercaz/academic/talks/cambulloneros-gobernanza</a></small></p>
@@ -144,10 +144,10 @@
 			Reveal.initialize({
 				slideNumber: true,
 				dependencies: [
-					{ src: 'revealjs/plugin/markdown/marked.js' },
-					{ src: 'revealjs/plugin/markdown/markdown.js' },
-					{ src: 'revealjs/plugin/notes/notes.js', async: true },
-					{ src: 'revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: '../revealjs/plugin/markdown/marked.js' },
+					{ src: '../revealjs/plugin/markdown/markdown.js' },
+					{ src: '../revealjs/plugin/notes/notes.js', async: true },
+					{ src: '../revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				]
 			});
 		</script>
