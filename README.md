@@ -13,6 +13,7 @@ its provenance.
 - Change the structure of current folders without underscores (_).
 - Move reveal.js from the folders to /core, to avoid unnecessary duplications.
 - Create a "blog-posts" or "blog-entries" folder to make a backup of [my blog posts](https://ivanhercaz.com/blog)
+- Print another versions of the slide presentations.
 
 ## License
 
