@@ -1,0 +1,196 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Find the cat in the port of Santa Cruz de Tenerife!</title>
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="../../inc/TimeCircles/TimeCircles.css">
+
+    <style>
+      .ui-tooltip { text-align: center; }
+      .playLayer {
+        float: left;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background-color: #00E676;
+        z-index: 1000;
+        width: 100%;
+        height: 100%;
+      }
+      .infobox {
+        width: 26%;
+        float: right;
+        padding: 2%;
+        text-align: center;
+        height: 90%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+      .infobox p { font-size: 11pt; }
+      .infobox button { margin: 10px 0px 10px 0px}
+      .time {
+        margin: 0 auto;
+        height: 100px;
+      }
+      .time_circles {
+        width: 200px;
+        margin: 0 auto;
+      }
+      .button {
+        padding: 5px;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        font-size: 12pt;
+      }
+      .start { background: #00C853; }
+      .stop { background-color: #f44336; }
+      .restart { background-color: #2979FF; }
+
+      .hidden { display: none; }
+    </style>
+  </head>
+  <body>
+    <section style="max-width: 70%; height: 100%; float: left; text-align: center; position: relative">
+      <div class="playLayer"></div>
+      <img style="height: 95%; margin-top: 10px; margin-bottom: 10px" src="Find the cat in the port of Santa Cruz de Tenerife.png" alt="" usemap="#Map" />
+      <map name="Map" id="Map">
+        <area alt="" id="cat1" title="Cat 1" href="#" shape="rect" coords="961,3327,1342,3611" />
+        <area alt="" id="cat2" title="" href="#" shape="rect" coords="2556,2163,2773,2324" />
+        <area alt="" id="cat3" title="" href="#" shape="rect" coords="2194,1060,2333,1185" />
+        <area alt="" id="cat4" title="" href="#" shape="rect" coords="3517,527,3632,663" />
+        <area alt="" id="cat5" title="" href="#" shape="rect" coords="4263,1003,4357,1108" />
+        <area alt="" id="cat6" title="" href="#" shape="rect" coords="4277,1680,4417,1844" />
+        <area alt="" id="cat7" title="" href="#" shape="rect" coords="1679,1670,1529,1784" />
+        <area alt="" id="cat8" title="" href="#" shape="rect" coords="147,1427,0,1319" />
+      </map>
+    </section>
+
+    <aside class="infobox">
+      <div class="time" data-date="0:00:00"></div>
+      <button class="button start">Let me see the cats!</button>
+      <button class="button stop">Stop</button>
+      <button class="button restart">Restart! Give me another chance!</button>
+
+      <h1>How to play</h1>
+      <p>Very easy! You have to find the cats in the image. When you find one cat,
+      you will see the correct license notice and check the original imagen. But
+      don't forget to click in the cat!</p>
+      <p>There is 8 cats in the port of <a href="https://en.wikipedia.org/wiki/Santa_Cruz_de_Tenerife">Santa Cruz de Tenerife</a>,
+      will you find them all?</p>
+
+      <h1>About the game</h1>
+      <p>This "find the cat" game has been made as task of the course Creative Commons
+      Certification Course. You can check all the code in GitHub and reuse it.</p>
+
+      <h2>How to cite the remix</h2>
+      <p>DON'T FORGET!</p>
+
+      <h2>License</h2>
+      <p>The code is under <a href="https://github.com/ivanhercaz/research/blob/master/LICENSE">GPL 3.0</a>
+      and the remixed image (available in Commons) is under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+
+      <h2>Credits</h2>
+    </aside>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous">
+    </script>
+
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+      integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+      crossorigin="anonymous">
+    </script>
+
+    <script src="j../../inc/jquery.rwdImageMaps.min.js"></script>
+    <script src="../../inc/TimeCircles/TimeCircles.js"></script>
+
+    <script>
+      $(document).ready(function(e) {
+        $("img[usemap]").rwdImageMaps();
+        $(".time").TimeCircles({
+          start: false,
+          time: {
+            Days: { show: false },
+            Hours: { show: false }
+          }
+        });
+        $(".start").click(function(){
+          $(".time").TimeCircles().start();
+          $(".playLayer").addClass("hidden")
+        });
+        $(".stop").click(function(){
+          $(".time").TimeCircles().stop();
+          $(".playLayer").removeClass("hidden")
+        });
+        $(".restart").click(function(){ $(".time").TimeCircles().restart(); });
+      });
+      $(document).tooltip({
+        track: true,
+        items: "area[title]",
+        position: {
+          my: "left+15 center",
+          at: "right top"
+        },
+        content: function() {
+          var element = $(this);
+          if (element.is("#cat1")) {
+            return '&copy; <a href="https://commons.wikimedia.org/wiki/User:Nevit">Nevit Dilmen</a>, <a href="https://commons.wikimedia.org/wiki/File:Black_Cat_02812_svg_vector_nevit.svg">Black Cat 02812 svg vector nevit</a>, cropped and embedded in an image by Ivanhercaz, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a> '
+          } else if (element.is("#cat2")) {
+            // Tiger cat
+            return '<a href="https://commons.wikimedia.org/wiki/User:Von.grzanka">Von.grzanka</a>, <a href="https://commons.wikimedia.org/wiki/File:Felis_catus-cat_on_snow.jpg">Felis catus-cat on snow</a>, cropped and embedded in an image by Ivanhercaz, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a> ';
+          } else if (element.is("#cat3")) {
+            // Cat in a circle
+            return '<a href="https://www.toicon.com/authors/carol">Carol Liao</a>, <a href="https://commons.wikimedia.org/wiki/File:Toicon-icon-fandom-tower.svg">Toicon-icon-fandom-tower</a>, cropped and embedded in an image by Ivanhercaz, <a href="https://creativecommons.org/licenses/by/4.0/legalcode" rel="license">CC BY 4.0</a>';
+          } else if (element.is("#cat4")) {
+            // White cat
+            return '<a href="https://commons.wikimedia.org/wiki/User:Lmbuga">Luis Miguel Bugallo S&aacute;nchez</a> (cropped by <a href="https://commons.wikimedia.org/wiki/User:Nard_the_Bard">Nard the Bard</a>), <a href="https://commons.wikimedia.org/wiki/File:Gatos_cats_7_cropped.jpg">Gatos cats 7 cropped</a>, cropped and embedded in an image by Ivanhercaz, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>';
+          } else if (element.is("#cat5")) {
+            // Black back-siluet
+            return '&copy; <a href="https://commons.wikimedia.org/wiki/User:Nevit">Nevit Dilmen</a>, <a href="https://commons.wikimedia.org/wiki/File:Kitten_1370737.svg">Kitten 1370737</a>, cropped and embedded in an image by Ivanhercaz, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a>'
+          } else if (element.is("#cat6")) {
+            // A tortoise shell cat, Kira
+            return '<a href="https://commons.wikimedia.org/wiki/User:Ivanhercaz">Ivanhercaz</a>, <a href="https://commons.wikimedia.org/wiki/File:Kira,_a_tortoise_shell_cat.jpg">Kira, a tortoise shell cat</a>, cropped and embedded in an image, <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" rel="license">CC BY-SA 4.0</a> '
+          } else if (element.is("#cat7")) {
+            return '<a href="https://commons.wikimedia.org/wiki/User:Reynaldo">Jos&eacute; Reynaldo da Fonseca</a>, <a href="https://commons.wikimedia.org/wiki/File:Gato_(2)_REFON.jpg">Gato (2) REFON</a>, cropped and embedded in an image by Ivanhercaz, <a href="https://creativecommons.org/licenses/by-sa/3.0/legalcode" rel="license">CC BY-SA 3.0</a> ';
+          } else if (element.is("#cat8")) {
+            return '<a href="https://www.flickr.com/photos/35034363271@N01">Dan Phiffer from Los Angeles, United States</a>, <a href="https://commons.wikimedia.org/wiki/File:Cat_hygiene.jpg">Cat hygiene</a>, cropped and embedded in an image by Ivanhercaz, <a href="https://creativecommons.org/licenses/by/2.0/legalcode" rel="license">CC BY 2.0</a>';
+          }
+        },
+        close: function(event, ui) {
+          ui.tooltip.hover(function() {
+            $(this).stop(true).fadeTo(400, 1);
+          },
+          function() {
+            $(this).fadeOut('400', function() {
+              $(this).remove();
+            });
+          });
+        }
+    });
+    $i = 0;
+      $("area").on("click", function() {
+        if ($i < 7) {
+          if ($(this).is(".found")) {
+            $x = 8 - $i
+            alert("You already found this cat! Keep trying, you have " + $x + " left to find.")
+          } else {
+            $i++
+            alert("You have find one cat! Total found: " + $i);
+            $(this).addClass("found");
+          }
+        } else if ($i < 8) {
+          $i++
+          $(".time").TimeCircles().stop();
+          alert("You win! You found the " + $i + " the cats. Congratulations!")
+        } else {
+          alarm("Something goes wrong!")
+        }
+      });
+    </script>
+  </body>
+</html>
