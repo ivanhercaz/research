@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ivanhercaz/ontologies/2017/11/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ivanhercaz/ontologies/2017/11/untitled-ontology-11">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.1</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ontología de prueba.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#SitiosHistoricos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonumentosNaturales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grabaciones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intangible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaisajesCulturales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObrasArteArtesania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Costumbres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cultural"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#osmData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inmueble"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#osmRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Documentos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonumentosArtisticos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConjuntosArquitectonicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fotografías"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZonasTipicas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vegueta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tangible"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mueble"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Películas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Música"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#osmNode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParquesNacionales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leyendas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manuscritos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mitos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SitiosArqueologicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CentrosIndustrialesObrasIngenieria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Religiones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonumentosPublicos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColeccionesCientificas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReservasBiosfera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColeccionesCientificasNaturales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artefactos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lenguaje"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReservasNacionales"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Artefactos"/>
+        <Class IRI="#Mueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CentrosIndustrialesObrasIngenieria"/>
+        <Class IRI="#Inmueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColeccionesCientificas"/>
+        <Class IRI="#Inmueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColeccionesCientificasNaturales"/>
+        <Class IRI="#Mueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConjuntosArquitectonicos"/>
+        <Class IRI="#Inmueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Costumbres"/>
+        <Class IRI="#Intangible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Documentos"/>
+        <Class IRI="#Mueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fotografías"/>
+        <Class IRI="#Mueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grabaciones"/>
+        <Class IRI="#Mueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inmueble"/>
+        <Class IRI="#Tangible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intangible"/>
+        <Class IRI="#Cultural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lenguaje"/>
+        <Class IRI="#Intangible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leyendas"/>
+        <Class IRI="#Intangible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manuscritos"/>
+        <Class IRI="#Mueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitos"/>
+        <Class IRI="#Intangible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonumentosArtisticos"/>
+        <Class IRI="#Inmueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonumentosNaturales"/>
+        <Class IRI="#Natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonumentosPublicos"/>
+        <Class IRI="#Inmueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mueble"/>
+        <Class IRI="#Tangible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Música"/>
+        <Class IRI="#Intangible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObrasArteArtesania"/>
+        <Class IRI="#Mueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaisajesCulturales"/>
+        <Class IRI="#Inmueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParquesNacionales"/>
+        <Class IRI="#Natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Películas"/>
+        <Class IRI="#Mueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Religiones"/>
+        <Class IRI="#Intangible"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReservasBiosfera"/>
+        <Class IRI="#Natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReservasNacionales"/>
+        <Class IRI="#Natural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SitiosArqueologicos"/>
+        <Class IRI="#Inmueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SitiosHistoricos"/>
+        <Class IRI="#Inmueble"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tangible"/>
+        <Class IRI="#Cultural"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZonasTipicas"/>
+        <Class IRI="#Inmueble"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#SitiosHistoricos"/>
+        <NamedIndividual IRI="#Vegueta"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#osmNode"/>
+        <NamedIndividual IRI="#Vegueta"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">347621880</Literal>
+    </DataPropertyAssertion>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#osmNode"/>
+        <DataProperty IRI="#osmData"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#osmRelation"/>
+        <DataProperty IRI="#osmData"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#osmRelation</IRI>
+        <Literal xml:lang="es" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relación de OSM</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
