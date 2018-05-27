@@ -1,5 +1,10 @@
 # Usefuls resources to learn Python #
 
+## Documentation ##
+
+  - [Python](https://docs.python.org)
+    - [re ― Regular expression operations](https://docs.python.org/3.6/library/re.html#search-vs-match)
+
 ## Tutorials ##
 
   - [Full Stack Python](https://www.fullstackpython.com/flask.html)
