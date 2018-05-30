@@ -154,11 +154,23 @@ actualmente
 
       Becado por Wikimedia España para asistir a Wikimanía 2017 Montreal, Canadá.
 
+## Otros datos de interés
+
+  - Contribuidor habitual en los proyectos del Movimiento Wikimedia. Principalmente en:
+    - Wikidata, Wikipedia en español y Wikimedia Commons.
+  - Traductor de software y proyectos libre, ya sea en TranslateWiki.net, en repositorios de GitHub o en el proyecto en sí mismo. Por ejemplo:
+    - Semantic MediaWiki: [https://semantic-mediawiki.org](https://semantic-mediawiki.org)
+    - Generador de Atribución (Lizenzhinweisgenerator): [https://generadordeatribucion.org/](https://generadordeatribucion.org/)
+    - Wikidata: [https://wikidata.org/](https://wikidata.org)
+  - Repositorios interesantes en GitHub:
+    - CanaryBot, bot para los proyectos Wikimedia: [https://github.com/ivanhercaz/CanaryBot](https://github.com/ivanhercaz/CanaryBot)
+    - Pysemanticmw, paquete e interfaz de línea de comandos para la API de Semantic MediaWiki: [https://github.com/ivanhercaz/pysemanticmw](https://github.com/ivanhercaz/pysemanticmw)
+    - Research, repositorio en el que almaceno mis presentaciones, documentos de divulgación y otros recursos: [https://github.com/ivanhercaz/research](https://github.com/ivanhercaz/research)
+
 ----
 
-> email: 	ivan@ivanhercaz.com \
-> phone: 	+34 681 638 290 \
-> github:	[https://github.com/ivanhercaz](https://github.com/ivanhercaz)
+>	ivan@ivanhercaz.com | +34 681 638 290 \
+> [ivanhercaz.com](https://ivanhercaz.com) \
 > Las Palmas de Gran Canaria
 
 ----
