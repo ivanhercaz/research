@@ -86,6 +86,9 @@ nov 2016
 
 ## Publicaciones
 
+**ORCID**
+:      [0000-0002-5436-8535](https://orcid.org/0000-0002-5436-8535)
+
   - Hernández-Cazorla, I. (2017). *Legados de Cultura Portuaria en Las Palmas de Gran Canaria. Propuesta de estudio de historia cultural: la figura del cambullonero* (trabajo de fin de grado tutorizado por Daniel Castillo-Hidalgo). Universidad de Las Palmas de Gran Canaria, Las Palmas de Gran Canaria. Disponible en [http://acceda.ulpgc.es/handle/10553/25787](http://acceda.ulpgc.es/handle/10553/25787)
   - Castillo-Hidalgo, D., y Hernández-Cazorla, I (2016). 1956-2016. 60 años de historia marítima regional (siglos XIX-XX). Un balance historiográfico. *Coloquio de Historia Canario-Americana*, XXII, 1-13. Disponible en: [http://hdl.handle.net/10553/25787](http://hdl.handle.net/10553/25787)
 
@@ -177,6 +180,7 @@ actualmente
 
 >	ivan@ivanhercaz.com | +34 681 638 290 \
 > [ivanhercaz.com](https://ivanhercaz.com) \
-> Las Palmas de Gran Canaria
+> Las Palmas de Gran Canaria \
+> [0000-0002-5436-8535](https://orcid.org/0000-0002-5436-8535)
 
 ----
