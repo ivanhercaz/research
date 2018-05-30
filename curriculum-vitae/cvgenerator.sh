@@ -19,7 +19,7 @@ fi
 echo "Welcome to the Curriculum Vitae generator!"
 
 echo "Generating HTML..."
-pandoc --standalone -c style.css --from markdown --to html -o $TO.html $FROM
+pandoc --standalone -c style.css --from markdown --to html5 -o $TO.html $FROM
 
 echo "Generating PDF..."
 # This changes the background color of the body in style.css from grey to white
