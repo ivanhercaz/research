@@ -1,9 +1,7 @@
 ---
-title: Iván Hernández Cazorla - Currículum vítae
+title: Iván Hernández Cazorla
 lang: es
 ---
-
-# Iván Hernández Cazorla
 
 | | |
 |-----------------------------------------------------|---------------------|
