@@ -9,6 +9,12 @@ lang: es
 | 35004, Las Palmas de Gran Canaria, Las Palmas | ivanhercaz.com  |
 | | +34 681 638 290 |
 
+<div style="text-align: center; margin-top: 20px">
+**Historiador**
+
+Interesado en las humanidades digitales y el patrimonio cultural, principalmente en cómo podemos mejorar la divulgación y la investigación al utilizar herramientas digitales. Curioso por los datos estructurados, la semántica y la programación.
+</div>
+
 ## Educación
 
 2013-2017
