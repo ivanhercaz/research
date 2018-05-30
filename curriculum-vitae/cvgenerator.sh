@@ -24,7 +24,7 @@ pandoc --standalone -c style.css --from markdown --to html5 -o $TO.html $FROM
 echo "Generating PDF..."
 # This changes the background color of the body in style.css from grey to white
 # before to convert the HTML in to PDF.
-sed -i "s#f2f2f2;#fff#g" style.css
+sed -i "s#f2f2f2#fff#g" style.css
 wkhtmltopdf $TO.html $TO.pdf
 # After conversion to PDF, change again the style.css
 sed -i "s#fff#f2f2f2#g" style.css
