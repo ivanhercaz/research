@@ -12,7 +12,7 @@ lang: es
 <div style="text-align: center; margin-top: 20px">
 **Historiador**
 
-Interesado en las humanidades digitales y el patrimonio cultural, principalmente en cómo podemos mejorar la divulgación y la investigación al utilizar herramientas digitales. Curioso por los datos estructurados, la semántica y la programación.
+Interesado en las humanidades digitales y el patrimonio cultural, principalmente en cómo podemos mejorar la divulgación y la investigación al utilizar herramientas digitales. Curioso por los datos estructurados, la semántica y la programación. Mis campos de investigación principales son la historia cultural y marítima, así como la utilización de MediaWiki, Semantic MediaWiki y Wikibase en el estudio y divulgación de la historia y el patrimonio cultural.
 </div>
 
 ## Educación
@@ -173,6 +173,7 @@ actualmente
     - Wikidata: [https://wikidata.org/](https://wikidata.org)
   - Repositorios interesantes en GitHub:
     - CanaryBot, bot para los proyectos Wikimedia: [https://github.com/ivanhercaz/CanaryBot](https://github.com/ivanhercaz/CanaryBot)
+    - extractPliego, script para extraer imágenes y datos del sitio web de la casa de subastas Pliego para subirlas a Wikimedia Commons: [https://github.com/ivanhercaz/extractPliego](https://github.com/ivanhercaz/extractPliego)
     - Pysemanticmw, paquete e interfaz de línea de comandos para la API de Semantic MediaWiki: [https://github.com/ivanhercaz/pysemanticmw](https://github.com/ivanhercaz/pysemanticmw)
     - Research, repositorio en el que almaceno mis presentaciones, documentos de divulgación y otros recursos: [https://github.com/ivanhercaz/research](https://github.com/ivanhercaz/research)
 
