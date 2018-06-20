@@ -7,8 +7,12 @@
 
 ## Tutorials ##
 
+  - [duncanlock.net](http://duncanlock.net)
+    - [How I built this website, using Pelican: Part 1 - Setup](http://duncanlock.net/blog/2013/05/17/how-i-built-this-website-using-pelican-part-1-setup/)
   - [Full Stack Python](https://www.fullstackpython.com/flask.html)
     - [Flask](https://www.fullstackpython.com/flask.html)
+    - [Pelican](https://www.fullstackpython.com/pelican.html)
+    - [Static Site Generators](https://www.fullstackpython.com/static-site-generator.html)
   - [HackerEarth Engineering](https://engineering.hackerearth.com)
     - [Using APIs with Python Requests Module](http://engineering.hackerearth.com/2014/08/21/python-requests-module/)
   - [Python Packaging User Guide](https://packaging.python.org/tutorials)
