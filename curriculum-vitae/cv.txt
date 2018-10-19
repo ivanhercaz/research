@@ -9,12 +9,12 @@ Iván Hernández Cazorla
 HISTORIADOR
 
 Interesado en las humanidades digitales y el patrimonio cultural,
-principalmente en cómo podemos mejorar la divulgación y la investigación
-al utilizar herramientas digitales. Curioso por los datos estructurados,
-la semántica y la programación. Mis campos de investigación principales
-son la historia cultural y marítima, así como la utilización de
-MediaWiki, Semantic MediaWiki y Wikibase en el estudio y divulgación de
-la historia y el patrimonio cultural.
+principalmente en cómo se puede mejorar la divulgación y la
+investigación al utilizar herramientas digitales. Curioso por los datos
+estructurados, la semántica y la programación. Mis campos de
+investigación principales son la historia cultural y marítima, así como
+la utilización de MediaWiki, Semantic MediaWiki y Wikibase en el estudio
+y divulgación de la historia y el patrimonio cultural.
 
 
 Educación
@@ -46,16 +46,38 @@ Educación
 
 Experiencia
 
-20 nov 2017
+mar 2018
+    INSTITUTO DE ANÁLISIS Y APLICACIONES TEXTUALES (IATEXT)
+
+sep 2018
+
+    CURADOR DE DATOS
+
+    Proyecto propuesto al IATEXT con el objetivo de completar la
+    composición del instituto y la producción científica de sus
+    miembros, siendo o no miembros de la institución, en Wikidata, el
+    mayor repositorio de datos estructurados libres (dominio público).
+    Se dividió en dos fases, una dedicada a los investigadores y otra a
+    sus publicaciones (libros, obras coordinadas, actas, capítulos,
+    artículos y ponencias). Para ambas fue necesario realizar un proceso
+    de curación y estructuración de los datos para la elaboración de los
+    elementos en Wikidata.
+
+    -   Informe final (en inglés):
+        https://www.wikidata.org/wiki/User:Iván_Hernández_Cazorla/IATEXT
+    -   Informe final y repositorio (español):
+        https://github.com/ivanhercaz/wikidata-iatext
+
+nov 2017
     @RCHIVA-T
 
-20 dic 2017
+dic 2017
 
     Auxiliar de archivo
 
     Desarrollo del proyecto «Sistematización de transferencias de
-    archivo» para el Servicio de Política Social del Cabildo de
-    Gran Canaria.
+    archivo» para el Servicio de Política Social del Cabildo de Gran
+    Canaria.
 
 ene 2017
     UNIVERSIDAD DE LAS PALMAS DE GRAN CANARIA
@@ -84,7 +106,7 @@ Habilidades
 
 DATOS
     Curación de datos, web semántica, datos estructurados y enlazados,
-    geodatos, Wikidata.
+    geodatos, Wikidata, OpenStreetMap.
 
 GESTORES
     MediaWiki, Semantic MediaWiki, Open Journal System, Omeka,
@@ -93,6 +115,9 @@ GESTORES
 HUMANIDADES
     Historia cultural, social y marítima, humanidades digitales,
     interdisciplinariedad, patrimonio cultural, divulgación
+
+IDIOMAS
+    Español (nativo), inglés (alto), portugués (intermedio)
 
 LENGUAJES
     HTML, CSS, Javascript (básico), Python, Bash (básico), SPARQL,
@@ -118,9 +143,9 @@ ORCID
     Las Palmas de Gran Canaria. Disponible en
     http://acceda.ulpgc.es/handle/10553/25787
 -   Castillo-Hidalgo, D., y Hernández-Cazorla, I (2016). 1956-2016. 60
-    años de historia marítima regional (siglos XIX-XX). Un
-    balance historiográfico. _Coloquio de Historia Canario-Americana_,
-    XXII, 1-13. Disponible en: http://hdl.handle.net/10553/25787
+    años de historia marítima regional (siglos XIX-XX). Un balance
+    historiográfico. _Coloquio de Historia Canario-Americana_, XXII,
+    1-13. Disponible en: http://hdl.handle.net/10553/25787
 
 
 Cursos y certificados
@@ -200,7 +225,7 @@ actualmente
     Portfolio disponible en https://flic.kr/s/aHsk58KyWB
 
 2013
-    HAMA LOVER'S
+    HAMA LOVER’S
 
 2015
     Monitor de actividades lúdico-culturales.
@@ -212,8 +237,8 @@ Becas
 
     WIKIMEDIA ESPAÑA-FUNDACIÓN WIKIMEDIA
 
-    Becado por Wikimedia España para asistir a Wikimanía 2017
-    Montreal, Canadá.
+    Becado por Wikimedia España para asistir a Wikimanía 2017 Montreal,
+    Canadá.
 
 
 Otros datos de interés
@@ -221,9 +246,9 @@ Otros datos de interés
 -   Contribuidor habitual en los proyectos del Movimiento Wikimedia.
     Principalmente en:
     -   Wikidata, Wikipedia en español y Wikimedia Commons.
--   Traductor de software y proyectos libre, ya sea en
-    TranslateWiki.net, en repositorios de GitHub o en el proyecto en
-    sí mismo. Por ejemplo:
+-   Traductor de software y proyectos libres, ya sea en
+    TranslateWiki.net, en repositorios de GitHub o en el proyecto en sí
+    mismo. Por ejemplo:
     -   Semantic MediaWiki: https://semantic-mediawiki.org
     -   Generador de Atribución (Lizenzhinweisgenerator):
         https://generadordeatribucion.org/

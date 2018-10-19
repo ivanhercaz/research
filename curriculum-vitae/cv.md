@@ -12,7 +12,7 @@ lang: es
 <div style="text-align: center; margin-top: 20px">
 **Historiador**
 
-Interesado en las humanidades digitales y el patrimonio cultural, principalmente en cómo podemos mejorar la divulgación y la investigación al utilizar herramientas digitales. Curioso por los datos estructurados, la semántica y la programación. Mis campos de investigación principales son la historia cultural y marítima, así como la utilización de MediaWiki, Semantic MediaWiki y Wikibase en el estudio y divulgación de la historia y el patrimonio cultural.
+Interesado en las humanidades digitales y el patrimonio cultural, principalmente en cómo se puede mejorar la divulgación y la investigación al utilizar herramientas digitales. Curioso por los datos estructurados, la semántica y la programación. Mis campos de investigación principales son la historia cultural y marítima, así como la utilización de MediaWiki, Semantic MediaWiki y Wikibase en el estudio y divulgación de la historia y el patrimonio cultural.
 </div>
 
 ## Educación
@@ -39,10 +39,21 @@ Interesado en las humanidades digitales y el patrimonio cultural, principalmente
 
 ## Experiencia
 
-20 nov 2017
+mar 2018
+:     **Instituto de Análisis y Aplicaciones Textuales (IATEXT)**
+
+sep 2018
+:     **Curador de datos**
+
+      Proyecto propuesto al IATEXT con el objetivo de completar la composición del instituto y la producción científica de sus miembros, siendo o no miembros de la institución, en Wikidata, el mayor repositorio de datos estructurados libres (dominio público). Se dividió en dos fases, una dedicada a los investigadores y otra a sus publicaciones (libros, obras coordinadas, actas, capítulos, artículos y ponencias). Para ambas fue necesario realizar un proceso de curación y estructuración de los datos para la elaboración de los elementos en Wikidata.
+
+      - Informe final (en inglés): [https://www.wikidata.org/wiki/User:Iván_Hernández_Cazorla/IATEXT](https://www.wikidata.org/wiki/User:Iván_Hernández_Cazorla/IATEXT)
+      - Informe final y repositorio (español): [https://github.com/ivanhercaz/wikidata-iatext](https://github.com/ivanhercaz/wikidata-iatext)
+
+nov 2017
 :     **@rchiva-t**
 
-20 dic 2017
+dic 2017
 :     Auxiliar de archivo
 
       Desarrollo del proyecto «Sistematización de transferencias de archivo» para el Servicio de Política Social del Cabildo de Gran Canaria.
@@ -66,13 +77,16 @@ nov 2016
 ## Habilidades
 
 **Datos**
-:      Curación de datos, web semántica, datos estructurados y enlazados, geodatos, Wikidata.
+:      Curación de datos, web semántica, datos estructurados y enlazados, geodatos, Wikidata, OpenStreetMap.
 
 **Gestores**
 :      MediaWiki, Semantic MediaWiki, Open Journal System, Omeka, Wordpress, Drupal (básico), AbsysNet (básico)
 
 **Humanidades**
 :      Historia cultural, social y marítima, humanidades digitales, interdisciplinariedad, patrimonio cultural, divulgación
+
+**Idiomas**
+:      Español (nativo), inglés (alto), portugués (intermedio)
 
 **Lenguajes**
 :      HTML, CSS, Javascript (básico), Python, Bash (básico), SPARQL, Markdown, Wikitexto
@@ -167,7 +181,7 @@ actualmente
 
   - Contribuidor habitual en los proyectos del Movimiento Wikimedia. Principalmente en:
     - Wikidata, Wikipedia en español y Wikimedia Commons.
-  - Traductor de software y proyectos libre, ya sea en TranslateWiki.net, en repositorios de GitHub o en el proyecto en sí mismo. Por ejemplo:
+  - Traductor de software y proyectos libres, ya sea en TranslateWiki.net, en repositorios de GitHub o en el proyecto en sí mismo. Por ejemplo:
     - Semantic MediaWiki: [https://semantic-mediawiki.org](https://semantic-mediawiki.org)
     - Generador de Atribución (Lizenzhinweisgenerator): [https://generadordeatribucion.org/](https://generadordeatribucion.org/)
     - Wikidata: [https://wikidata.org/](https://wikidata.org)
