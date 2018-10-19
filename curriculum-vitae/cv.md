@@ -43,7 +43,7 @@ mar 2018
 :     **Instituto de Análisis y Aplicaciones Textuales (IATEXT)**
 
 sep 2018
-:     **Curador de datos**
+:     Curador de datos
 
       Proyecto propuesto al IATEXT con el objetivo de completar la composición del instituto y la producción científica de sus miembros, siendo o no miembros de la institución, en Wikidata, el mayor repositorio de datos estructurados libres (dominio público). Se dividió en dos fases, una dedicada a los investigadores y otra a sus publicaciones (libros, obras coordinadas, actas, capítulos, artículos y ponencias). Para ambas fue necesario realizar un proceso de curación y estructuración de los datos para la elaboración de los elementos en Wikidata.
 

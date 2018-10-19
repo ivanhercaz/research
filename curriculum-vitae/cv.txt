@@ -51,7 +51,7 @@ mar 2018
 
 sep 2018
 
-    CURADOR DE DATOS
+    Curador de datos
 
     Proyecto propuesto al IATEXT con el objetivo de completar la
     composición del instituto y la producción científica de sus
